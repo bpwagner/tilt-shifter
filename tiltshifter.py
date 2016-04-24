@@ -1,4 +1,7 @@
 #!/usr/bin/python
+# Brian Wagner
+# 4/24/2016
+# bpwagner@gatech.edu
 
 import sys, getopt
 import sys
