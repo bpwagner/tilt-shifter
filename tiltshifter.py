@@ -88,11 +88,11 @@ def saturateIimage(image):
         for col in range(hsv_image.shape[1]):
 
             hsv_image[row,col][1] = hsv_image[row,col][1] + 20
-            if hsv_image[row,col][1] > 255:
+            if hsv_image[row,col][1] >= 255:
                 hsv_image[row,col][1] = 255
 
             hsv_image[row,col][2] = hsv_image[row,col][2] + 10
-            if hsv_image[row,col][2] > 255:
+            if hsv_image[row,col][2] >= 255:
                 hsv_image[row,col][2] = 255
 
 
